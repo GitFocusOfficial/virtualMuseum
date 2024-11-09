@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Room Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="room">
+            <!-- Front Wall -->
+            <div class="wall front">
+                <div class="content">
+                    <img src="images/image1.webp" alt="Image 1">
+                    <!-- <p class="description">Description for Image 1</p> -->
+                </div>
+            </div>
+            <!-- Back Wall -->
+            <div class="wall back">
+                <div class="content">
+                    <img src="images/image2.jpeg" alt="Image 2">
+                    <!-- <p class="description">Description for Image 2</p> -->
+                </div>
+            </div>
+            <!-- Left Wall -->
+            <div class="wall left">
+                <div class="content">
+                    <img src="images/image3.jpg" alt="Image 3">
+                    <!-- <p class="description">Description for Image 3</p> -->
+                </div>
+            </div>
+            <!-- Right Wall -->
+            <div class="wall right">
+                <div class="content">
+                    <img src="images/image4.jpg" alt="Image 4">
+                    <!-- <p class="description">Description for Image 4</p> -->
+                </div>
+            </div>
+        </div>
+        <!-- Navigation Arrows -->
+        <div class="nav-arrows">
+            <button class="prev" onclick="navigateGallery(-1)">&#10094;</button>
+            <button class="next" onclick="navigateGallery(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
